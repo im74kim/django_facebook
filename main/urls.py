@@ -30,7 +30,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('play/', play),
-    path('/', newsfeed),
+    path('', newsfeed),
     path('feed/<number>/', detail_feed),
     path('new/', new_feed),
     path('feed/<number>/edit/', edit_feed),
